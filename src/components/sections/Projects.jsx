@@ -27,7 +27,7 @@ const Projects = () => {
       category: "Personal Project",
       status: "Live",
       gradient: "from-purple-500 to-pink-500",
-      link: "https://rock-paper-scissor-neon-six.vercel.app/"
+      link: ""
     },
     {
       title: "Rock-Paper-Scissor",
@@ -100,7 +100,7 @@ const Projects = () => {
                 </div>
                 
                 <div className='flex space-x-4'>
-                  <a target='_blank'
+                  <a
                     href={`${project.link}`} 
                     className={`group/btn relative bg-gradient-to-r ${project.gradient} text-white py-3 px-6 rounded-sm font-medium text-sm tracking-wide transition-all duration-300 hover:shadow-[0_0_30px_rgba(16,185,129,0.3)] hover:scale-105 overflow-hidden`}
                   >
