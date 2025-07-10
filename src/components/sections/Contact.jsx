@@ -66,11 +66,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className='font-light text-white mb-1'>Email</h4>
-                    <p className='text-slate-300 text-sm'>mhamzafaisal2214@gmail.com</p>
+                    <p className='text-slate-300 text-sm'>mhamzafaisal2214@gmail.com </p>
                   </div>
                 </div>
                 
-                <div className='flex items-start space-x-4'>
+                {/* <div className='flex items-start space-x-4'>
                   <div className='w-12 h-12 bg-slate-700/50 rounded-sm flex items-center justify-center border border-slate-600'>
                     <span className='text-emerald-400 text-lg'>📱</span>
                   </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                     <h4 className='font-light text-white mb-1'>Phone</h4>
                     <p className='text-slate-300 text-sm'>+92 303 2071397</p>
                   </div>
-                </div>
+                </div> */}
                 
                 <div className='flex items-start space-x-4'>
                   <div className='w-12 h-12 bg-slate-700/50 rounded-sm flex items-center justify-center border border-slate-600'>
