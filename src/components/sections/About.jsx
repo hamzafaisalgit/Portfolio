@@ -10,11 +10,11 @@ const About = () => {
   ];
 
   const tools = [
-    "Tableau", "Power BI", "Git", "Github", "Figma", "VS Code", 
+    "Tableau", "Power BI", "Git", "Github", "Figma", 
   ];
 
-  const probsol = [
-    "DSA", "LeetCode", "Analytical Skills", "OOP"
+  const Data_Analysis = [
+    "Numpy", "Pandas", "Matplotlib",
   ];
 
   return (
@@ -92,7 +92,7 @@ const About = () => {
               <div className='relative p-8 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-lg hover:border-indigo-500/50 transition-all duration-300'>
                 <h3 className='text-2xl font-light mb-6 text-white'>Problem Solving</h3>
                 <div className='flex flex-wrap gap-3'>
-                  {probsol.map((skill, index) => (
+                  {Data_Analysis.map((skill, index) => (
                     <span 
                       key={index}
                       className='px-4 py-2 bg-slate-700/50 text-slate-300 rounded-sm text-sm font-light border border-slate-600 hover:border-indigo-500/50 hover:text-indigo-400 transition-all duration-300 cursor-default'

@@ -25,7 +25,7 @@ const Projects = () => {
         "Jupyter Notebook",
       ],
       category: "Data Analysis & Visualization",
-      status: "Completed",
+      status: "Live",
       gradient: "from-red-500 to-pink-500",
       link: "https://github.com/hamzafaisalgit/Medical-Health-factors-EDA",
     },
