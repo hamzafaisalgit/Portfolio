@@ -29,8 +29,10 @@ const Home = () => {
         </div>
 
         <p className='text-slate-300 text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed font-light'>
-          I build sleek, high-performance web applications that blend clean code, modern design, 
-          and seamless user experience. Passionate about creating responsive, fast, and user-friendly digital products using the latest technologies.
+          Aspiring Software Engineer focused on Data/Business analytics and Front-end development and , with hands-on experience building 
+          responsive and user interfaces using React, Tailwind CSS, JavaScript, HTML, and CSS, alongside working knowledge of backend development 
+          and API integration. I have also worked with data analysis tools, using Python libraries such as NumPy, Pandas, and Matplotlib, as well as 
+          visualization tools like Tableau and Power BI, to extract insights and support data-driven decisions.
         </p>
 
         <div className='flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6'>

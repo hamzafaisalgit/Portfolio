@@ -2,15 +2,15 @@ import React from 'react';
 
 const About = () => {
   const frontendSkills = [
-    "HTML5", "CSS3", "JavaScript", "React", "Next.js", "Tailwind CSS",
+    "React","Tailwind CSS","JavaScript", "HTML5", "CSS3", 
   ];
   
   const databaseSkills = [
-    "SQL", "MySQl WorkBench", "MongoDB", "PostgreSQL"
+    "SQL", "MySQl WorkBench", "MongoDB",
   ];
 
   const tools = [
-    "Git", "Github", "Vercel", "Figma", "VS Code", "AI Tools", "IntelliJ Idea"
+    "Tableau", "Power BI", "Git", "Github", "Figma", "VS Code", 
   ];
 
   const probsol = [
@@ -144,7 +144,7 @@ const About = () => {
               <div className='space-y-6'>
                 <div>
                   <h4 className='text-lg font-medium text-white mb-2'>Frontend Intern</h4>
-                  <p className='text-cyan-400 font-light'>Certura (July,25 - Aug,25)</p>
+                  <p className='text-cyan-400 font-light'>Developers Hub Co (July,25 - Aug,25)</p>
                   <p className='text-slate-400 text-sm font-light mt-2'>
                     Working on Real World Projects
                   </p>
